@@ -75,7 +75,7 @@ const fullHouse = (number = undefined, arr, marks = undefined) => {
   const counts = getCount(arr);
   if (counts.length === 2) {
     if (
-      (counts[0].count === 2 || counts[0].count === 2) &&
+      (counts[0].count === 2 || counts[0].count === 3) &&
       (counts[1].count === 2 || counts[1].count === 3)
     ) {
       return 25;
