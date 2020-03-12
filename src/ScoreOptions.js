@@ -76,7 +76,7 @@ export default class ScoreOptions extends Component {
         {
           name: "Four Of A Kind",
           description: "Sum of all dice if 4 are same",
-          number: undefined,
+          number: 4,
           marks: undefined,
           rule: ofAKind,
           isSelected: false,
@@ -94,7 +94,7 @@ export default class ScoreOptions extends Component {
         {
           name: "Small Straight",
           description: "30 points for small straight",
-          number: undefined,
+          number: 4,
           marks: 30,
           rule: straight,
           isSelected: false,
@@ -103,7 +103,7 @@ export default class ScoreOptions extends Component {
         {
           name: "Large Straight",
           description: "40 points for large straight",
-          number: undefined,
+          number: 5,
           marks: 40,
           rule: straight,
           isSelected: false,
