@@ -9,6 +9,13 @@ export default class Option extends Component {
 
   handleSelect(event) {
     if (!this.props.isSelected) {
+      console.log(
+        this.props.rule(
+          this.props.number,
+          this.props.diceValues,
+          this.props.marks
+        )
+      );
       this.props.select(
         this.props.rule(
           this.props.number,

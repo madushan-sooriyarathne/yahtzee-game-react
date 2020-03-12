@@ -113,7 +113,7 @@ export default class ScoreOptions extends Component {
           name: "Yahtzee",
           description: "50 points for yahtzee",
           number: undefined,
-          marks: undefined,
+          marks: 50,
           rule: yahtzee,
           isSelected: false,
           id: uuid()
@@ -154,6 +154,7 @@ export default class ScoreOptions extends Component {
             key={option.id}
             id={option.id}
             name={option.name}
+            marks={option.marks}
             number={option.number}
             rule={option.rule}
             select={this.handleSelect}

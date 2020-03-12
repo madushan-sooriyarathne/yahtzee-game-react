@@ -78,7 +78,7 @@ const fullHouse = (number = undefined, arr, marks = undefined) => {
       (counts[0].count === 2 || counts[0].count === 3) &&
       (counts[1].count === 2 || counts[1].count === 3)
     ) {
-      return 25;
+      return marks;
     }
   }
   return 0;
@@ -92,7 +92,7 @@ const yahtzee = (number = undefined, arr, marks = undefined) => {
       return 0;
     }
   }
-  return 50;
+  return marks;
 };
 
 // Chance
