@@ -1,0 +1,23 @@
+.TotalScoreBoard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.TotalScoreBoard-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.34em;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.TotalScoreBoard-score {
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 6rem;
+  text-transform: uppercase;
+
+  color: #783d81;
+}

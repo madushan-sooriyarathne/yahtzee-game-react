@@ -1,0 +1,11 @@
+.ScoreOptions {
+  justify-self: stretch;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.ScoreOptions > *:not(:last-child) {
+  margin-bottom: 0.5rem;
+}

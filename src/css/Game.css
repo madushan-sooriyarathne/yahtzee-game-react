@@ -1,0 +1,42 @@
+.Game {
+  display: grid;
+  grid-template-rows: repeat(3, min-content);
+  gap: 3rem;
+  justify-items: center;
+  max-width: 50rem;
+  min-width: 50rem;
+
+  background-color: white;
+  border-radius: 5px;
+
+  padding: 2rem 2rem;
+
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+
+  grid-column: mid-end / mid-start;
+}
+
+@media only screen and (max-width: 34.375em) {
+  .Game {
+    box-shadow: none;
+  }
+}
+
+.Game-heading {
+  font-size: 4rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.Game-heading > *:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.Game-heading .heading-letter {
+  display: inline-block;
+  transition: all 0.2s ease-in-out;
+}
+
+.Game-heading .heading-letter:hover {
+  transform: scale(1.1) rotate(5deg);
+}

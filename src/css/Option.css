@@ -1,0 +1,29 @@
+.Option {
+  font-size: 1.5rem;
+  font-weight: 500;
+
+  display: flex;
+  justify-content: space-between;
+
+  padding: 0.3rem 0.5rem;
+
+  background-color: #713062;
+  color: white;
+
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.selected {
+  text-decoration: line-through;
+  font-style: italic;
+
+  background-color: #a598a2;
+  color: black;
+  cursor: not-allowed;
+}
+
+.Option:hover {
+  transform: translateY(-0.1rem);
+}

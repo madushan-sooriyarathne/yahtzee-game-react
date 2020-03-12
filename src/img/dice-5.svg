@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122 122">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #713062;
+      }
+    </style>
+  </defs>
+  <title>dice-6</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <path class="cls-1" d="M114,0H8A8,8,0,0,0,0,8V114a8,8,0,0,0,8,8H114a8,8,0,0,0,8-8V8A8,8,0,0,0,114,0ZM37,94a9,9,0,1,1,9-9A9,9,0,0,1,37,94Zm0-48a9,9,0,1,1,9-9A9,9,0,0,1,37,46ZM61,70a9,9,0,1,1,9-9A9,9,0,0,1,61,70ZM85,94a9,9,0,1,1,9-9A9,9,0,0,1,85,94Zm0-48a9,9,0,1,1,9-9A9,9,0,0,1,85,46Z"/>
+    </g>
+  </g>
+</svg>
