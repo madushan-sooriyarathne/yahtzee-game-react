@@ -2,7 +2,7 @@
 
 The [yahtzee dice game](https://en.wikipedia.org/wiki/Yahtzee) implemented using react js
 
-find this project live 👉 [here](yahtzee-game-react.netlify.com)
+find this project live 👉 [here](https://yahtzee-game-react.netlify.com/)
 
 ### Get this up and running in your local machine
 
