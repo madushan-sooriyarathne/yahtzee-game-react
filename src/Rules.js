@@ -65,7 +65,7 @@ const straight = (number, arr, marks) => {
       }
     }
   });
-  if (seqCount === number) {
+  if (seqCount >= number) {
     return marks;
   }
   return 0;
